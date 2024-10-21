@@ -307,7 +307,7 @@ Languages:
                            .get("data", {})
                            .get("viewer", {})
                            .get("repositories", {}))
-            print("Contributed repos", contrib)
+            print("Contributed repos", contrib_repos)
             print("Owned repos", owned_repos)
             repos = owned_repos.get("nodes", [])
             if self._consider_forked_repos:
